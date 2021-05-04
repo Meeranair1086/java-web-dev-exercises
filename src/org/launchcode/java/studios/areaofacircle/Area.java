@@ -14,10 +14,7 @@ public class Area {
         if (radius <= 0) {
             System.out.println("Radius must be greater than 0");
         }
-        else if(radius=null){
-            System.out.println("Radius must be greater than 0");
-        }
-        {        else {
+        else {
             System.out.println("The area of a circle of radius " + radius + " is: " + areaOfTheCircle);
         }
     }
